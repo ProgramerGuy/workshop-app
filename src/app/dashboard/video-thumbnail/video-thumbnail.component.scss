@@ -1,0 +1,26 @@
+:host {
+  .card-container {
+    box-shadow: #ddd 1px 1px 5px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    -webkit-transition: width 2s; /* Safari prior 6.1 */
+    transition: 0.2s;
+    cursor: pointer;
+  }
+
+  .card-container:hover {
+    transform: scale(1.03);
+    background-color:rgba(0, 140, 255, 0.137);
+    box-shadow: #ddd 1px 1px 9px;
+  }
+
+  .list {
+    list-style: none;
+  }
+
+  .summary {
+    margin: 10px;
+  }
+
+}
